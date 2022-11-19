@@ -1,7 +1,7 @@
 <?php
 
-    include("dbConnect.php");
-    $con=dbConnect();
+    include("connectDb.php");
+    $con=connectDb();
     $username="";
     $password="";
 
